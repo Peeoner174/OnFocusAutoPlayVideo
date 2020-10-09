@@ -11,7 +11,7 @@ import AVFoundation
 
 class VideoCell: UITableViewCell, AutoPlayVideoLayerContainer {
     
-    // MARK: - NITAutoPlayVideoLayerContainer
+    // MARK: - AutoPlayVideoLayerContainer
     
     var videoURL: String? {
         didSet {
